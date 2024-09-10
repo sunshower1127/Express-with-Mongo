@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const CampgroundSchema = new Schema({
-  name: String,
+  title: String,
   price: String,
   //   image: String,
   description: String,
